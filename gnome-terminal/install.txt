@@ -1,0 +1,1 @@
+cat ~/gterminal.preferences | dconf load /org/gnome/terminal/legacy/profiles:/

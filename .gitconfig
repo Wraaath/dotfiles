@@ -1,0 +1,8 @@
+[user]
+	email = mads@wraaath.com
+	name = Wraaath
+[init]
+	defaultbranch = main
+[core]
+	editor = nvim
+	excludesfile = /home/wraaath/.gitignore_global
