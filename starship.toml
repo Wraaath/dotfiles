@@ -31,7 +31,7 @@ disabled = false
 [git_status]
 conflicted = ""
 ahead = ""
-behind = ""
+behind = "!"
 diverged = ""
 up_to_date = ""
 untracked = ""
