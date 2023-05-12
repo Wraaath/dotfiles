@@ -15,7 +15,7 @@ format = '''
 
 [directory]
 truncation_length = 3 # how long we gon show
-truncate_to_repo = true # when in git repo, won't show directories below the repo
+truncate_to_repo = false # when in git repo, won't show directories below the repo
 use_os_path_sep = true # eg. \ on Windows instead of /
 read_only_style = "197" # 8-bit ANSI
 read_only = " (read-only)"
@@ -23,7 +23,7 @@ format = "[$path](bold green)[$read_only]($read_only_style)" # [~/Documents/Proj
 disabled = false
 
 [git_branch]
-truncation_length = 5
+truncation_length = 10
 style = "bold red"
 format =  " [$branch]($style)"
 disabled = false
