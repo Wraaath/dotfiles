@@ -23,9 +23,9 @@ plugins=(
 
 # Sauce
 source $ZSH/oh-my-zsh.sh
-source ~/.oh-my-zsh/custom/plugins/aliases/aliases.zsh
 source ~/.oh-my-zsh/custom/themes/themes.zsh
-
+source ~/.oh-my-zsh/custom/plugins/command-time/command-time.plugin.zsh
+source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
 
 # Starship cross-shell prompt
 eval "$(starship init zsh)"
