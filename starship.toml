@@ -11,7 +11,15 @@ command_timeout = 1000
 
 # The collected functions formatted
 format = '''
-\[$directory$git_branch$git_status\][\$](bold green) ''' # [dir (git branch(git status))]$ 
+$hostname\[$directory$git_branch$git_status\][\$](bold green) ''' # [dir (git branch(git status))]$ 
+
+
+[hostname]
+ssh_only = false
+trim_at = "."
+style = "bold green"
+format = "[$hostname]($style)"
+disabled = false
 
 [directory]
 truncation_length = 3 # how long we gon show
