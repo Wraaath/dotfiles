@@ -4,6 +4,9 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
+# Enter tmux automatically
+if [ "$TMUX" = "" ]; then tmux; fi
+
 # Theme, although not actually used. See starship config
 ZSH_THEME="gallois"
 
